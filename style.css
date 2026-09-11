@@ -1,0 +1,24 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Element selector */
+h1 {
+    text-align: center;
+}
+
+/* Class selector */
+.expense-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* ID selector */
+#expenses-list {
+    background-color: #e8f5e9;
+    padding: 20px;
+    margin-top: 20px;
+}
