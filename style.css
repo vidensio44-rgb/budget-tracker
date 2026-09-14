@@ -1,24 +1,169 @@
 /* Element selector */
+
 body {
     font-family: Arial, sans-serif;
     margin: 30px;
+    background-color: #f7f9f7;
 }
 
+
 /* Element selector */
+
 h1 {
     text-align: center;
 }
 
+
 /* Class selector */
+
 .expense-section {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
 }
 
+
 /* ID selector */
+
 #expenses-list {
     background-color: #e8f5e9;
     padding: 20px;
     margin-top: 20px;
+}
+
+
+/* Form styling */
+
+.expense-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Advanced selector: descendant selector */
+
+.expense-section input,
+.expense-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Advanced selector: focus selector */
+
+input:focus,
+select:focus {
+    outline: 2px solid #4caf50;
+}
+
+
+/* Advanced selector: negation selector */
+
+input:not([type="submit"]) {
+    background-color: white;
+}
+
+
+/* Button styling */
+
+button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    /* Required interactive styling */
+    cursor: pointer;
+}
+
+
+/* Button hover */
+
+button:hover {
+    background-color: #388e3c;
+}
+
+
+/* Table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+/* Table cells */
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+
+/* Table header */
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+/* Advanced selector: positional selector */
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Required table row hover */
+
+tr:hover {
+    background-color: #dcedc8;
+}
+
+
+/* Help section */
+
+details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+/* Make summary look clickable */
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Multimedia section */
+
+.multimedia-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* Image */
+
+.multimedia-section img {
+    margin: 10px 0;
+}
+
+
+/* Video */
+
+iframe {
+    max-width: 100%;
 }
