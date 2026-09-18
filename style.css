@@ -242,3 +242,26 @@ summary {
 iframe {
     max-width: 100%;
 }
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    header,
+    .expense-section,
+    #expenses-list,
+    details,
+    .multimedia-section {
+        padding: 18px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
